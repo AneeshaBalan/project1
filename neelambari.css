@@ -1,0 +1,215 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Serif:wght@700&family=Paprika&display=swap');
+
+.backgroundimage{
+
+
+    background-image:url(./images/nil.jpg);
+    background-size:cover;
+}
+
+.heading{
+    font-size: 65PX;
+    text-align:center;
+    font-family: 'PT Serif', serif;
+    color:whitesmoke;
+    /* margin-top: 25%; */
+}
+
+.hyperlink{
+    font-size: 35px;
+    display: flex; 
+    justify-content: space-between;
+    text-align: right; 
+    padding:12%;
+
+}
+.home{
+    color: white;
+    
+    /* margin-left: 65%; */
+    
+}
+.aboutus{
+    color: white;
+     /* margin-left: 75%;  */
+    
+}
+.feedback{
+    color: white;
+     /* margin-left: 85%;  */
+}
+.contact{
+    color: white;
+    /* margin-left: 9%;  */
+    /* margin-top: 10px; */
+}
+.content{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Paprika', cursive;
+    color: white;
+
+}
+button{
+    width: 250px;
+    height: 65px;
+    text-align: center;
+    font-size: 35px;
+    align-items: center;
+    margin-left: 45%;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(104, 24, 4);
+    padding: auto;
+}
+button:hover{
+    background-color: white;
+    color: rgb(104, 24, 4);
+    
+}
+.availability{
+    width: 45%;
+    height: 49px;
+    background-color: rgba(250, 235, 215, 0.596);
+    border-radius: 10px;
+    border: 1px solid peachpuff;
+    margin-left: 631px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 34px;
+}
+.check{
+    font-size: 21px;
+    width: 217px;
+    height: 44px;
+    margin-left: 57%;
+    margin-bottom: -8px;
+    
+}
+label{
+    margin-top: 25px;
+    
+}
+input{
+    font-size:21px ;
+}
+.empty{
+    width: 100%;
+    height: 300px;
+}
+.koothambalam p{
+    font-size: 25px;
+    
+}
+.koothambalam h3{
+    color: maroon;
+}
+.subhead1{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+.yoga p{
+    font-size: 25px;
+    display: block;
+    
+}
+.yoga h3{
+    color: maroon;
+}
+.subhead2{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+.treehouse p{
+    font-size: 25px;
+    display: block;
+    
+}
+.treehouse h3{
+    color: maroon;
+}
+.subhead3{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+.eventandpackages{
+    width: 100%;
+    height: 500px;
+    border:whitesmoke solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue
+}
+.coll{
+    width: 20%;
+    height: 450px;
+    border: black solid;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: ;
+    background-color: rgb(253, 225, 171);
+    color:violet;
+}
+.coll h2{
+    color: rgb(95, 3, 95);
+}
+.coll a{
+    color: black;
+    
+}
+.coll:hover{
+    background-color:violet;
+    color:wheat;
+}
+ 
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    background-color: rgb(65, 60, 60);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    
+}
+.footer{
+    background-color: rgb(65, 60, 60);
+    padding: 70px 0;
+
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 25px;
+    color:wheat;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col a{
+    color: aqua;
+    font-size: 20px;
+}
+.paragraph{
+    background-color: white;
+}
