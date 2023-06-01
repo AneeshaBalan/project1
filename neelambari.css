@@ -3,19 +3,14 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Serif:wght@700&family=Paprika&display=swap');
 
-.backgroundimage{
-
-
-    background-image:url(./images/nil.jpg);
-    background-size:cover;
+#navbarNavDropdown{
+    height: 50px;
+    padding-left: 1214px;
+    font-size: 25PX;
+    /* position:fixed; */
 }
-
-.heading{
-    font-size: 65PX;
-    text-align:center;
-    font-family: 'PT Serif', serif;
-    color:whitesmoke;
-    /* margin-top: 25%; */
+nav{
+    position: fixed;
 }
 
 .hyperlink{
@@ -26,25 +21,51 @@
     padding:12%;
 
 }
-.home{
-    color: white;
-    
-    /* margin-left: 65%; */
-    
-}
 .aboutus{
-    color: white;
-     /* margin-left: 75%;  */
-    
+    /* width: 1000px; */
+    height: 700px;
+    background-color: rgb(251, 247, 247);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
 }
-.feedback{
-    color: white;
-     /* margin-left: 85%;  */
+.about{
+    /* background-color: antiquewhite; */
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
 }
-.contact{
-    color: white;
-    /* margin-left: 9%;  */
-    /* margin-top: 10px; */
+.picture{
+    /* background-color: rgb(199, 128, 34); */
+    width: 600px;
+    height: 600px;
+    margin-top: -545px;
+    margin-left: 626px;
+    background-image: url(./images/koothambalam.jpg);
+    background-size: cover;
+}
+.p1{
+    margin-top: 60px;
+    font-size: 114px;
+}
+.a1{
+    margin-top: 36px;
+    font-size: 20px; 
+    color: rgb(183, 87, 3);  
+}
+h1{
+    margin-top: 10px;
+}
+.about1{
+    padding-top: 15px;
+    color: rgb(183, 87, 3);  
+}
+.empty{
+    margin-top: 50px;
+    text-align: center;
+}
+#attraction{
+    margin-top: -77px;
+    margin-left: 80px;
 }
 .content{
     font-size: 60px;
@@ -64,22 +85,23 @@ button{
     color: white;
     background-color: rgb(104, 24, 4);
     padding: auto;
+    margin-bottom: 10px;
 }
-button:hover{
+/* button:hover{
     background-color: white;
-    color: rgb(104, 24, 4);
+    color: rgb(104, 24, 4); */
     
 }
 .availability{
-    width: 45%;
+    width: 55%;
     height: 49px;
     background-color: rgba(250, 235, 215, 0.596);
     border-radius: 10px;
     border: 1px solid peachpuff;
-    margin-left: 631px;
+    margin-left: 480px;
     font-size: 20px;
     text-align: center;
-    margin-top: 34px;
+    margin-top: 178px;
 }
 .check{
     font-size: 21px;
@@ -98,46 +120,57 @@ input{
 }
 .empty{
     width: 100%;
-    height: 300px;
-}
-.koothambalam p{
-    font-size: 25px;
+    height: 155px;
     
 }
-.koothambalam h3{
-    color: maroon;
+.booking{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 166, 0, 0.55);
 }
-.subhead1{
+.register{
+    margin-left: 155px;
+    /* margin-top: 25px; */
+}
+
+/* .koothambalam p{
+    font-size: 25px;
+    
+} */
+/* .koothambalam h3{
+    color: maroon;
+} */
+/* .subhead1{
     text-align: right;
     padding-right: 50px;
     padding-top: 0px;
-}
-.yoga p{
+} */
+/* .yoga p{
     font-size: 25px;
     display: block;
     
-}
-.yoga h3{
-    color: maroon;
-}
+} */
+/* .yoga h3{
+    color: maroon; */
+/* }
 .subhead2{
     text-align: right;
     padding-right: 50px;
     padding-top: 0px;
-}
-.treehouse p{
+} */
+/* .treehouse p{
     font-size: 25px;
     display: block;
     
-}
-.treehouse h3{
-    color: maroon;
-}
+} */
+/* .treehouse h3{
+    color: maroon; */
+/* }
 .subhead3{
     text-align: right;
     padding-right: 50px;
     padding-top: 0px;
-}
+} */
 .eventandpackages{
     width: 100%;
     height: 500px;
@@ -154,7 +187,7 @@ input{
     border: black solid;
     border-radius: 10px;
     font-size: 25px;
-    margin-bottom: ;
+    /* margin-bottom */
     background-color: rgb(253, 225, 171);
     color:violet;
 }
@@ -171,12 +204,8 @@ input{
 }
  
   
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
+
+.containers{
     max-width: 1170px;
     background-color: rgb(65, 60, 60);
     margin: auto;
@@ -196,9 +225,9 @@ ul{
 }
 .footer-col{
     width: 25%;
-    padding: 0 15px;
+    padding:15px;
 }
-.footer-col h4{
+.col-3 h4{
     font-size: 25px;
     color:wheat;
     text-transform: capitalize;
@@ -206,10 +235,18 @@ ul{
     font-weight: 500;
     position: relative;
 }
-.footer-col a{
+.col-3 a{
     color: aqua;
     font-size: 20px;
 }
 .paragraph{
     background-color: white;
 }
+.button{
+    margin-top: 46px;
+}
+
+.em{
+    height: 100px;
+}
+
